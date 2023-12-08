@@ -1,0 +1,50 @@
+//            System.out.println(second + "'s turn!");
+//            firstPlayer.setPencils(pencils);
+//
+//            //Ask user for how many he wants to take
+//            int taking = firstPlayer.askForTheTake();
+//            pencils -= taking;
+//            displayPencils(pencils);
+//            bot.setInput(pencils);
+//
+//            initialInput = pencils;
+////            displayPencils(pencils);
+//            if(pencils == 1) {
+//                winner = firstPlayer.getName();
+//                System.out.println(second + "'s turn:");
+//                System.out.println(pencils);
+//                break;
+//            }
+//            if(pencils == 0){
+//                winner = secondPlayer.getName();
+//                break;
+//            }
+//
+//
+//            secondPlayer.setPencils(pencils);
+//            System.out.println(second + "'s turn:");
+//
+//            int secondUserInput = bot.getOutput();
+//
+//            System.out.println(secondUserInput);
+//            pencils-= secondUserInput;
+//            displayPencils(pencils);
+//
+//
+//            if(pencils == 1) {
+//                winner = secondPlayer.getName();
+//                System.out.println(first + "'s turn!");
+//                 int taking01 = firstPlayer.askForTheTake();
+//                 firstPlayer.setPencils(pencils);
+//                 int total =pencils - taking01;
+//                while(total < 0) {
+//                    System.out.println("Too many pencils were taken");
+//                    String inputTurnStr = sc.next();
+//                    total = pencils - Integer.parseInt(inputTurnStr);
+//                }
+//                break;
+//            }
+//            if(pencils == 0){
+//                winner = firstPlayer.getName();
+//                break;
+//            }
